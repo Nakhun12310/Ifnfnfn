@@ -157,7 +157,7 @@ button.MouseButton1Click:Connect(
             gui:Destroy()
             blur:Destroy()
 
-            -- The script right here
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Nakhun12310/CookieHub/refs/heads/main/GameList.lua"))()
 
         else
             label.Text = "Invalid Key!"
